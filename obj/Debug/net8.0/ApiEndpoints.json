@@ -1,0 +1,232 @@
+[
+  {
+    "ContainingType": "apiconcesionario.Controllers.AutoController",
+    "Method": "Get",
+    "RelativePath": "v1/{controller}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiconcesionario.Controllers.AutoController",
+    "Method": "Post",
+    "RelativePath": "v1/{controller}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autoCreate",
+        "Type": "apiconcesionario.Models.AutoCreate",
+        "IsRequired": true
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiconcesionario.Controllers.AutoController",
+    "Method": "GetById",
+    "RelativePath": "v1/{controller}/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiconcesionario.Controllers.AutoController",
+    "Method": "Put",
+    "RelativePath": "v1/{controller}/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "autoCreate",
+        "Type": "apiconcesionario.Models.AutoCreate",
+        "IsRequired": true
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiconcesionario.Controllers.AutoController",
+    "Method": "Delete",
+    "RelativePath": "v1/{controller}/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiconcesionario.Controllers.MarcaController",
+    "Method": "Get",
+    "RelativePath": "v2/{controller}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiconcesionario.Controllers.MarcaController",
+    "Method": "Post",
+    "RelativePath": "v2/{controller}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "marcaCreate",
+        "Type": "apiconcesionario.Models.MarcaCreate",
+        "IsRequired": true
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiconcesionario.Controllers.MarcaController",
+    "Method": "GetById",
+    "RelativePath": "v2/{controller}/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiconcesionario.Controllers.MarcaController",
+    "Method": "Put",
+    "RelativePath": "v2/{controller}/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "marcaCreate",
+        "Type": "apiconcesionario.Models.MarcaCreate",
+        "IsRequired": true
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiconcesionario.Controllers.MarcaController",
+    "Method": "Delete",
+    "RelativePath": "v2/{controller}/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiconcesionario.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[apiconcesionario.WeatherForecast, apiconcesionario, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

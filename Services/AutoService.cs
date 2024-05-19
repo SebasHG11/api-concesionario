@@ -38,6 +38,7 @@ namespace apiconcesionario.Services
                 autoActual.MarcaId = auto.MarcaId;
                 autoActual.Modelo = auto.Modelo;
                 autoActual.Color = auto.Color;
+                autoActual.Descripcion = auto.Descripcion;
                 autoActual.Image = auto.Image;
 
                 await context.SaveChangesAsync();

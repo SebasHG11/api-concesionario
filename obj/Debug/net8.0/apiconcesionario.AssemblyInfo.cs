@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("apiconcesionario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00f14b5ce0caf74ea47b35be46f530e435316929")]
 [assembly: System.Reflection.AssemblyProductAttribute("apiconcesionario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("apiconcesionario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

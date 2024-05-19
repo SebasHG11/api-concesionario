@@ -147,3 +147,4 @@ C:\Users\samue\OneDrive\Escritorio\CursodeNet\apiconcesionario\apiconcesionario\
 C:\Users\samue\OneDrive\Escritorio\CursodeNet\apiconcesionario\apiconcesionario\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
 C:\Users\samue\OneDrive\Escritorio\CursodeNet\apiconcesionario\apiconcesionario\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
 C:\Users\samue\OneDrive\Escritorio\CursodeNet\apiconcesionario\apiconcesionario\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\samue\OneDrive\Escritorio\CursodeNet\apiconcesionario\apiconcesionario\obj\Debug\net8.0\apiconcesionario.sourcelink.json
